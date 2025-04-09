@@ -28,7 +28,7 @@ const snapToNetwork = (pt:any) => {
 
     let nearestVertexDist = null;
     let nearestCoord = null;
-    console.log(nearestLineIndex)
+    // console.log(nearestLineIndex)
     //@ts-ignore
     coordEach(marnet.features[nearestLineIndex], function (currentCoord) {
 
